@@ -26,9 +26,8 @@ export const cvData: CvData = {
   contacts: [
     { label: 'Email', value: 'nguyenviet.phong1998@icloud.com', href: 'mailto:nguyenviet.phong1998@icloud.com', icon: 'mail' },
     { label: 'Điện thoại', value: '0868 688 472', href: 'tel:+84868688472', icon: 'phone' },
-    { label: 'GitHub', value: 'github.com/nguyenvietphong', href: 'https://github.com/nguyenvietphong', icon: 'github' },
-    { label: 'LinkedIn', value: 'linkedin.com/in/nguyenvietphong', href: 'https://linkedin.com/in/nguyenvietphong', icon: 'linkedin' },
-    { label: 'Website', value: 'nguyenvietphong.dev', href: 'https://nguyenvietphong.dev', icon: 'globe' },
+    { label: 'GitHub', value: 'github.com/nguyenvietphong1998', href: 'https://github.com/nguyenvietphong1998', icon: 'github' },
+    { label: 'Website', value: 'nguyenvietphong.dev', href: 'https://nguyenvietphong1998.github.io/cv-phong/', icon: 'globe' },
   ],
 
   // level: 0–100, hiển thị thành thanh kỹ năng
@@ -41,7 +40,13 @@ export const cvData: CvData = {
     { name: 'Redux Toolkit', level: 75, group: 'Framework & Thư viện' },
     { name: 'Git / GitHub', level: 85, group: 'Công cụ' },
     { name: 'Vite', level: 75, group: 'Công cụ' },
-    { name: 'Figma (read/cut)', level: 65, group: 'Công cụ' },
+    { name: 'Python', level: 90, group: 'Ngôn ngữ' },
+    { name: 'Django', level: 80, group: 'Framework & Thư viện' },
+    { name: 'FastAPI', level: 80, group: 'Framework & Thư viện' },
+    { name: 'PostgreSQL', level: 85, group: 'CSDL' },
+    { name: 'MongoDB', level: 80, group: 'CSDL' },
+    { name: 'Docker', level: 75, group: 'Công cụ' },
+    { name: 'Kubernetes', level: 70, group: 'Công cụ' },
   ],
 
   experiences: [

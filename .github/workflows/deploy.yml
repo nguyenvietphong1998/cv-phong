@@ -40,6 +40,9 @@ jobs:
 
       - name: Cau hinh GitHub Pages
         uses: actions/configure-pages@v5
+        with:
+          # Tu bat GitHub Pages (nguon GitHub Actions) neu repo chua bat
+          enablement: true
 
       - name: Tai file build (dist/)
         uses: actions/upload-pages-artifact@v3
