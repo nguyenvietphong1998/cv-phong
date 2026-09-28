@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Tailwind v4: bật dark mode theo class `dark` trên <html> (xem useTheme.ts) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ============================================================
+   CSS cho chế độ IN / XUẤT PDF
+   - Ẩn các phần điều khiển (.no-print: thanh TopBar, nút bấm...)
+   - Ép về nền trắng chữ đen, bỏ đổ bóng để in đẹp
+   - Giữ nguyên bố cục 2 cột, tránh cắt đôi một mục khi sang trang
+   ============================================================ */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+  }
+
+  /* Giữ màu các thanh kỹ năng khi in */
+  .print-exact {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Không tách rời một khối (mỗi kinh nghiệm/dự án/mục học vấn) */
+  .avoid-break {
+    break-inside: avoid;
+  }
+}
