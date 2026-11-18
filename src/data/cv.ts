@@ -63,13 +63,23 @@ export const cvData: CvData = {
     {
       company: 'EDABK LAB / ĐH Bách Khoa Hà Nội',
       position: 'Thành viên nhóm phát triển AI',
-      period: '06/2029 – 05/2023',
+      period: '06/2019 – 05/2023',
       points: [
         'Xây dựng hệ thống AI hỗ trợ người khiếm thị trên Jetson Nano (NVIDIA) mô tả hình ảnh, nhận diện gương mặt',
         'Xây dựng hệ thống phát hiện và tracking đối tượng.',
         'Xây dựng hệ thống nhận diện biển số xe, nhận diện chữ viết tay, OCR.'
       ],
       technologies: ['Python', 'Docker', 'Triton Server', 'OpenCV', 'PyTorch', 'TensorFlow', 'Keras'],
+    },
+    {
+      company: 'Gia sư tri thức',
+      position: 'Giáo viên dạy lập trình, toán',
+      period: '06/2024 – 08/2025',
+      points: [
+        'Giảng dạy lập trình Python, JavaScript cho học sinh cấp 3.',
+        'Gia sư toán học cho học sinh cấp 2.'
+      ],
+      technologies: [],
     },
   ],
 
