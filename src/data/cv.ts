@@ -81,6 +81,15 @@ export const cvData: CvData = {
       ],
       technologies: [],
     },
+    {
+      company: 'BQP',
+      position: 'Lập trình viên Fullstack (Frontend/Backend)',
+      period: '09/2023 – Nay',
+      points: [
+        'Lập trình viên Fullstack (Frontend/Backend), DevOps Engineer',
+      ],
+      technologies: [],
+    },
   ],
 
   educations: [
