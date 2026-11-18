@@ -51,25 +51,25 @@ export const cvData: CvData = {
 
   experiences: [
     {
-      company: 'Công ty TNHH Phần mềm ABC',
-      position: 'Lập trình viên Frontend',
-      period: '06/2023 – Nay',
+      company: 'Công ty F19',
+      position: 'AI Engineer',
+      period: '03/2022 – 02/2023',
       points: [
-        'Phát triển và bảo trì hệ thống quản lý nội bộ bằng React + TypeScript (khoảng 20 màn hình chính).',
-        'Tái cấu trúc component, giảm 35% thời gian tải trang đầu nhờ code-splitting và lazy loading.',
-        'Phối hợp với đội UX/UI để dựng design system dùng chung bằng Tailwind CSS.',
+        'Phát triển hệ thống AI về nhận diện khuôn mặt, nhận diện biển số xe, OCR, phân loại ảnh, trích xuất thông tin từ ảnh.',
+        'Triển khai các mô hình AI lên môi trường production bằng Docker và Triton Server.',
       ],
-      technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
+      technologies: ['Python', 'Docker', 'Triton Server', 'PaddleOCR', 'OpenCV', 'PyTorch', 'TensorFlow', 'Keras'],
     },
     {
-      company: 'Startup XYZ',
-      position: 'Thực tập sinh / Junior Developer',
-      period: '02/2022 – 05/2023',
+      company: 'EDABK LAB / ĐH Bách Khoa Hà Nội',
+      position: 'Thành viên nhóm phát triển AI',
+      period: '06/2029 – 05/2023',
       points: [
-        'Xây dựng landing page và trang bán hàng responsive, tối ưu SEO on-page.',
-        'Viết unit test cho các component quan trọng, đạt độ phủ 70%.',
+        'Xây dựng hệ thống AI hỗ trợ người khiếm thị trên Jetson Nano (NVIDIA) mô tả hình ảnh, nhận diện gương mặt',
+        'Xây dựng hệ thống phát hiện và tracking đối tượng.',
+        'Xây dựng hệ thống nhận diện biển số xe, nhận diện chữ viết tay, OCR.'
       ],
-      technologies: ['React', 'JavaScript', 'SCSS'],
+      technologies: ['Python', 'Docker', 'Triton Server', 'OpenCV', 'PyTorch', 'TensorFlow', 'Keras'],
     },
   ],
 
@@ -78,7 +78,8 @@ export const cvData: CvData = {
       school: 'Đại học Bách Khoa Hà Nội',
       degree: 'Kỹ sư Công nghệ Diện tử - Viễn thông',
       period: '2018 – 2023',
-      note: 'Tốt nghiệp loại Xuất sắc, GPA 3.6/4.0',
+      note: 'Tốt nghiệp loại Xuất sắc, GPA 3.6/4.0. Học bổng khuyến khích học tập 2 kỳ',
+
     },
   ],
 
@@ -121,7 +122,23 @@ export const cvData: CvData = {
         'Docker Compose',
       ],
       gitUrl: 'https://github.com/nguyenvietphong1998/WritingIelts'
-    }
+    },
+    {
+      name: 'Các dự án tại Bộ Quốc phòng (BQP)',
+      description: 'Tham gia xây dựng và hoàn thành 4 dự án phần mềm tại Bộ Quốc phòng.',
+      technologies: [
+        'ReactJS',
+        'HTML',
+        'Django',
+        'PostgreSQL',
+        'PostGIS',
+        'MongoDB',
+        'SQL',
+        'tus-server',
+        'Nginx',
+        'Docker',
+      ],
+    },
   ],
 
   certificates: [
